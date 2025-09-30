@@ -1,0 +1,68 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background: var(--color-bg); 
+}
+
+
+/* Light mode */
+:root {
+  --color-bg: #F0F4FF;     
+  --color-active: #cddaff;     
+  --color-header: #FFFFFF; 
+  --color-card: #FFFFFF;   
+  --color-accent: #6366F1; 
+  --color-text: #1E293B;   
+  --color-muted: #6B7280;  
+  --color-border: #E5E7EB; 
+  --color-iconbg: #F0F4FF;
+  --color-iconcolor: #000000; 
+  /* Priority */
+  --color-greentext:#059669;  
+  --color-greenbg:#D1FAE5;  
+  --color-greenborder:#6EE7B7 ;  
+  --color-yellowtext: #CA8A04;  
+  --color-yellowbg: #fef9c2;  
+  --color-yellowborder: #FDE047;  
+  --color-redtext:  #DC2626;  
+  --color-redbg:  #ffe2e2;  
+  --color-redborder:  #FCA5A5;  
+}
+
+/* Dark mode */
+.dark {
+  --color-bg: #0F172A;        
+  --color-active: #252e41;    
+  --color-header: #1E293B;    
+  --color-card: #1E293B;     
+  --color-accent: #2e30c7;   
+  --color-text: #F9FAFB;    
+  --color-muted: #9CA3AF;    
+  --color-border: #334155; 
+ --color-iconbg: #303e5e;
+ --color-iconcolor: #d8d8d8; 
+  /* Priority */
+  --color-greentext: #34D399;     
+  --color-greenbg: #064E3B;        
+  --color-greenborder: #10B981;   
+  --color-yellowtext: #FACC15;    
+  --color-yellowbg: #422006;     
+  --color-yellowborder: #FBBF24;   
+  --color-redtext: #F87171;        
+  --color-redbg: #450A0A;          
+  --color-redborder: #b11b1b;      
+}
+
+
+/*Charts, remove focus outline*/
+.recharts-wrapper:focus,
+.recharts-surface:focus,
+.recharts-bar-rectangle:focus {
+  outline: none !important;
+}
