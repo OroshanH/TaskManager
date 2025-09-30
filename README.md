@@ -12,6 +12,7 @@ npm run dev
 The frontend should now be running at http://localhost:5173
 
 Backend:
+(Powershell terminal)
 cd backend
 .\mvnw.cmd spring-boot:run
 
