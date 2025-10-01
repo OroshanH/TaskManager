@@ -16,6 +16,6 @@ Backend:
 cd backend
 .\mvnw.cmd spring-boot:run
 
-The H2 database can be accesed at http://localhost:8080/h2-console
+The H2 database can be accessed at http://localhost:8080/h2-console
 JDBC URL: jdbc:h2:file:./data/appdb
 Username: sa 
