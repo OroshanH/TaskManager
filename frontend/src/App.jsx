@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import TaskList from "./components/TaskList";
 import NewTaskModal from "./components/NewTaskModal";
 import TaskForm from "./components/TaskForm";
-import StatsModal from "./components/StatsModal"; // <-- NEW
+import StatsModal from "./components/StatsModal";
 import { useTasksQuery, useCreateTaskMutation } from "./hooks/useTasks";
 import AlertModal from "./components/AlertModal";
 
